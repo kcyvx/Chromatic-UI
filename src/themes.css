@@ -340,3 +340,9 @@ input::placeholder,
 textarea::placeholder {
   color: var(--theme-textMuted) !important;
 }
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 10px;
+}
