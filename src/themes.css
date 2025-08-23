@@ -346,3 +346,11 @@ textarea::placeholder {
   margin: 0 auto;
   padding: 10px;
 }
+
+.header{
+  background-color: var(--theme-surface) !important;
+  padding: 8px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
