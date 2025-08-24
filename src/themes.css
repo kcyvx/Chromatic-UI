@@ -317,6 +317,18 @@
   color: var(--theme-textInverse) !important;
 }
 
+.btn-outline-secondary {
+  background-color: transparent !important;
+  color: var(--theme-secondary) !important;
+  border: 1px solid var(--theme-secondary) !important;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+.btn-outline-secondary:hover {
+  background-color: var(--theme-secondary) !important;
+  color: var(--theme-textInverse) !important;
+}
 /* Classes pour les liens */
 .link-primary {
   color: var(--theme-primary) !important;
@@ -341,7 +353,7 @@ textarea::placeholder {
   color: var(--theme-textMuted) !important;
 }
 
-.container {
+.global-container {
   max-width: 1300px;
   margin: 0 auto;
   padding: 10px;
